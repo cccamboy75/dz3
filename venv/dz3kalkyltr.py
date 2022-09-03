@@ -1,5 +1,5 @@
 print("Выберете действие")
-if True
+if True:
     s = input("Введите знак (+,-,*,/): ")
     if s in ('+', '-', '*', '/'):
         x = float(input("x="))
