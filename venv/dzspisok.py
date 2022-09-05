@@ -1,16 +1,14 @@
-n = [1, 2, 3]
-x = len(n)
-if x == 6:
-    print([n[:3], n[3:]])
-if x == 5:
-    print([n[:3], n[3:]])
-if x == 3:
-    print([n[:2], n[2:]])
-if x == 1:
-    print([n[:1], n[1:]])
-if x == 0:
-    print([n[:0], n[0:]])
-
+spisok1 = [1, 2, 3, 4, 5]
+spisok2 = list()
+if len(spisok1) % 2 == 0:
+    x = len(spisok1) // 2
+    spisok2.extend([spisok1[:x], spisok1[x:]])
+    print(spisok1, " => ", spisok2)
+else:
+    y = len(spisok1) // 2
+    spisok2.extend([spisok1[:y + 1], spisok1[y + 1:]])
+    print(spisok1, " => ", spisok2)
+    print(y)
 
 
 
