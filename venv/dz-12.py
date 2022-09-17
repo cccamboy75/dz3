@@ -8,11 +8,12 @@ import string
 string.punctuation
 
 for p in string.punctuation:
-    if p in a:
-        a = a.replace(p, '')    #замена символа в строке
+    a = a.replace(p, '')    #замена символа в строке
 
 b = a.split()                   # разбиваем строку на подстроки
 c = ''.join(b)                   # объединяем строку
 x = '#'
+f = c[:139]
 
-print(x + c)
+print(x + f)
+
