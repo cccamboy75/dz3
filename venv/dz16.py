@@ -1,7 +1,4 @@
-def correct(str):
-    str = str.strip(".")                #удаляем элемент
-    x = f"{str[0].upper()}{str[1:]}."
-    return x
+def hi_say(str, int):
+    print(f"Hi. My name is {str} and I'm {int} years old")
 
-s = input("Введите строку:")
-print(correct(s))
+hi_say(input("Name:"),(input("Years:")))
