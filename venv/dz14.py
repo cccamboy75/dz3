@@ -6,5 +6,3 @@ if int(n) > 0:
             k = k * int(str(n)[i])
         n = k
     print(n)
-else:
-    print("введите число")
