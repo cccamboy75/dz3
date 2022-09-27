@@ -1,6 +1,5 @@
 import string
 string.punctuation
-
 def isPalindrome(x):
     w =  x.lower()
     b = w
