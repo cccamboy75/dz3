@@ -1,7 +1,10 @@
 def generate_cube_numbers(number):
-    i = 2
-    while i ** 3 <= number:
-        print(i ** 3, end= " ")
-        i += 1
-generate_cube_numbers(100)
+    for i in range(2, number):
+        i = i ** 3
+        if i < number:
+            yield i
+        else:
+            return
+
+print(list(generate_cube_numbers(int(100))))
 
