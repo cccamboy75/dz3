@@ -1,10 +1,15 @@
-def prime_generator(x):
-    for i in range(2, x):
-        if x % i == 0:
-            return False
-    return True
+def p_generator(y):
+    for i in range(2, y):
+        if y % i == 0:
+            break
+        else:
+            return True
 
-for y in range(1, 10):
-    if prime_generator(y):
-        print(y, end=' ')
+
+def prime_generator(x):
+    for i in range(1, x):
+        if p_generator(i):
+            yield i
+
+print(list(prime_generator(10)))
 
