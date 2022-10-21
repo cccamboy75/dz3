@@ -9,7 +9,6 @@ class Human:
     def __str__(self):
         return f'{self.first_name} {self.last_name}, age:{self.age}, gender:{self.gender}'
 
-
 class Student(Human):
 
     def __init__(self, gender, age, first_name, last_name, record_book):
