@@ -59,8 +59,7 @@ st7 = Student("Female", 20, "Natasha", "Jobs", "7")
 st8 = Student("Male", 21, "Olga", "Pegalo", "8")
 st9 = Student("Male", 22, "Valera", "Shpak", "9")
 st10 = Student("Male", 23, "Victor", "Maksimov", "10")
-st11 = Student("Male", 24, "Evgeniy", "Shkapypilo", "11")
-st11 = Student("Male", 29, "Evgenen", "Shkapypi", "12")
+
 
 gr = Group('PD1')
 gr.add_student(st1)
